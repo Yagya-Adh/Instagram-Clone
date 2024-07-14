@@ -51,15 +51,30 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="dark:bg-black dark:text-white flex flex-col bg-[#f1f4f7] text-black-500 font-medium border-r-2 items-center justify-between">
-      <img src={logo} alt="" className="h-32" />
+    <div className="dark:bg-black dark:text-white flex flex-col bg-[#f1f4f7] text-black-500 font-medium border-r-2 items-center justify-between  ">
+      <img src={logo} alt="" className="h-32 w-full" />
       {lists.map((item, index) => (
-        <div className="mb-3 ms-1 px-2 me-3 mt-3" key={index}>
+        <div
+          className="mb-3 ms-1 px-2 me-3 mt-3 w-full transition-all duration-500"
+          key={index}
+        >
           <NavbarItems icon={item.icon} title={item.title} />
         </div>
       ))}
 
-      <div className="bottom-0 position fixed flex mb-3 ms-2 py-1 px-2 me-1 mt-3 text-center rounded w-40 hover:bg-gray-300">
+      <div
+        className="
+        flex 
+        fixed bottom-0 
+        justify-start
+      transition-all 
+      duration-500 
+       mb-3 ms-2 py-1 
+       px-2 me-1 mt-3 
+       text-center 
+       rounded-md
+        w-40 hover:bg-gray-300"
+      >
         <button>
           <Bars3Icon className="size-8 text-black-500 font-bold" />
         </button>
