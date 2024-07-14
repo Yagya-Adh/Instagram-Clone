@@ -7,11 +7,11 @@ import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
 
 import BodyMain from "./BodyMain";
-import TopNab from './TopNab.jsx'
+import TopNab from "./TopNab.jsx";
 
 const Home = () => {
   return (
-    <div className="h-screen">
+    <div>
       <TopNab />
       <BodyMain />
       <BodyMain />

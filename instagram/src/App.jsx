@@ -2,16 +2,23 @@ import React from "react";
 import "./App.css";
 import NavBar from "./Pages/NavBar";
 import Home from "./Pages/Home";
+import Aside from "./Pages/Aside";
 
 const App = () => {
   return (
     <div>
       <div className="contain">
-        <NavBar />
-        <div className="flex h-screen justify-center mx-auto">
+        <div className="w-2/5">
+          <NavBar />
+        </div>
+        <div className="w-full">
           <Home />
         </div>
-        <aside>helo</aside>
+
+        <div className="w-2/5">
+        <Aside />
+        </div>
+
       </div>
     </div>
   );
