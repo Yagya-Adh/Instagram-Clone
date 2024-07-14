@@ -9,18 +9,20 @@ const App = () => {
   return (
     <div>
       <div className="contain">
+        {/* navbar */}
         <div className="sm:w-3/4 md:w-1/4 invisible sm:visible">
           <NavBar />
         </div>
+        {/* bottom bar */}
         <div className="visible sm:invisible fixed bottom-0 h-12 w-full">
           <NavBarBottom />
         </div>
-
+        {/* main */}
         <div className="w-full">
           <Home />
         </div>
-
-        <div className="w-2/5 md:visible invisible ">
+        {/* side bar */}
+        <div className="w-2/5 lg:visible invisible ">
           <AsideElement />
         </div>
       </div>
