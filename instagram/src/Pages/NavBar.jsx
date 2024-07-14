@@ -9,7 +9,7 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/outline";
 import { PlusIcon } from "@heroicons/react/24/outline";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
-
+import NavbarItems from "./NavBarItems";
 const NavBar = () => {
   const lists = [
     {
@@ -72,14 +72,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-const NavbarItems = ({ icon, title }) => {
-  return (
-    <div className="flex hover:bg-gray-300 px-2 py-1 rounded w-full">
-      {icon}
-      <label className="size-6 text-black-500 font-bold mt-1 mx-2">
-        {title}
-      </label>
-    </div>
-  );
-};
