@@ -1,0 +1,23 @@
+.contain {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+/* 
+
+nav {
+    background: #000;
+    width: 18%;
+}
+
+main {
+background: #5a4545;
+width: 64%;
+}
+
+aside {
+    background-color: beige;
+    width: 18%;
+}
+ */
