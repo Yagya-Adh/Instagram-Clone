@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./Pages/NavBar";
 import Home from "./Pages/Home";
-import Aside from "./Pages/Aside";
+import AsideElement from "./Pages/AsideElement";
 
 const App = () => {
   return (
@@ -16,9 +16,8 @@ const App = () => {
         </div>
 
         <div className="w-2/5">
-        <Aside />
+          <AsideElement />
         </div>
-
       </div>
     </div>
   );

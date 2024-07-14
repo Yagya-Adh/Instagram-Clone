@@ -9,9 +9,9 @@ import { BookmarkIcon } from "@heroicons/react/24/outline";
 const BodyMain = () => {
   const [disp, setDisp] = useState(false);
   return (
-    <div className="w-full flex justify-center mx-auto px-6 border-b border-grey-200 border shadow-md my-5 ">
+    <div className="w-full flex justify-center mx-auto px-6 my-5 ">
       <div>
-        <div className="flex justify-between my-2 mx-2 p-2 ">
+        <div className="flex justify-between my-2 mx-2 p-2">
           <div className="flex p-1">
             <img
               src={glass}
@@ -37,7 +37,7 @@ const BodyMain = () => {
 
           <button className="font-bold text-xl ">...</button>
         </div>
-        <img src={glass} alt="" />
+        <img src={glass} alt="post" className="border shadow-md" />
 
         <div className="flex justify-between">
           <div className="flex">
@@ -49,7 +49,7 @@ const BodyMain = () => {
           <BookmarkIcon className="size-8 p-1 text-black-500 font-bold" />
         </div>
         <h1 className="p-1 mx-2">621 likes</h1>
-        <div>
+        <div className=" border-b shadow-md">
           <h2 className="font-bold text-sm p-1">artworkunity</h2>
         </div>
       </div>
