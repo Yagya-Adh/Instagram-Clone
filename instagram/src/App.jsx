@@ -8,8 +8,9 @@ const App = () => {
     <div>
       <div className="contain">
         <NavBar />
-        <Home/>
-
+        <div className="flex h-screen justify-center mx-auto">
+          <Home />
+        </div>
         <aside>helo</aside>
       </div>
     </div>
