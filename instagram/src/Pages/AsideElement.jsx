@@ -41,14 +41,16 @@ const SuggestedListItem = () => {
 const CardComponentList = ({ button, user }) => {
   return (
     <div>
-      <div className="flex justify-between p-2 my-4w-full">
+      <div className="flex justify-between p-2 my-4 w-full">
         <div className="flex">
           <img
             src={mountain}
-            className="w-12 h-12 rounded-full border-2 border-red-500 p-1"
+            className="w-auto lg:w-12 h-12 rounded-full border-2 border-red-500 p-1"
             alt="user"
           />
-          <h3 className="text-gray-600 mt-3 ms-1">{user}</h3>
+          <h3 className="text-gray-600 mt-3 ms-1">{user}
+            <span className="">New to instagram </span>
+          </h3>
         </div>
         <button className="text-sm text-blue-500 font-bold">{button}</button>
       </div>
