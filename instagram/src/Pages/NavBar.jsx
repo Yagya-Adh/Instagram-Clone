@@ -51,7 +51,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex flex-col bg-[#f1f4f7] text-black-500 font-medium border-r-2">
+    <div className="dark:bg-black dark:text-white flex flex-col bg-[#f1f4f7] text-black-500 font-medium border-r-2 items-center justify-between">
       <img src={logo} alt="" className="h-32" />
       {lists.map((item, index) => (
         <div className="mb-3 ms-1 px-2 me-3 mt-3" key={index}>

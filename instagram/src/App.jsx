@@ -8,9 +8,9 @@ import NavBarBottom from "./Pages/NavBarBottom";
 const App = () => {
   return (
     <div>
-      <div className="contain">
+      <div className="contain dark:bg-black dark:text-white" >
         {/* navbar */}
-        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible">
+        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible border-r-2">
           <NavBar />
         </div>
         {/* bottom bar */}

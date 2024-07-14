@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
 import glass from "../../public/glass.jpg";
-import { ChatBubbleOvalLeftIcon, PaperAirplaneIcon, BookmarkIcon } from "@heroicons/react/24/outline";
+import {
+  ChatBubbleOvalLeftIcon,
+  PaperAirplaneIcon,
+  BookmarkIcon,
+} from "@heroicons/react/24/outline";
 
 const BodyMain = () => {
   const [disp, setDisp] = useState(false);
-  
+
   /* like */
   const [likeCount, setLikeCount] = useState(0);
   const [isClicked, setIsClicked] = useState(false);
@@ -19,8 +23,12 @@ const BodyMain = () => {
   useEffect(() => {
     const loadHeartIcon = async () => {
       const icon = isClicked
-        ? await import("@heroicons/react/24/solid").then(module => module.HeartIcon)
-        : await import("@heroicons/react/24/outline").then(module => module.HeartIcon);
+        ? await import("@heroicons/react/24/solid").then(
+            (module) => module.HeartIcon
+          )
+        : await import("@heroicons/react/24/outline").then(
+            (module) => module.HeartIcon
+          );
       setHeartIcon(() => icon);
     };
 
@@ -59,7 +67,9 @@ const BodyMain = () => {
           <div className="flex">
             <HeartIcon
               onClick={likeBtnIsClick}
-              className={`mx-2 p-1 size-8 font-extrabold ${isClicked ? "text-red-600" : "text-black-500"}`}
+              className={`mx-2 p-1 size-8 font-extrabold ${
+                isClicked ? "text-red-600" : "text-black-500"
+              }`}
             />
             <ChatBubbleOvalLeftIcon className="mx-2 p-1 size-8 text-black-500 font-extrabold" />
             <PaperAirplaneIcon className="mx-2 p-1 size-8 text-black-500 font-extrabold -rotate-[50deg]" />
