@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../public/instagram.jpeg";
+import logo from "../../assets/imgs/instagram.jpeg";
 
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { HomeIcon } from "@heroicons/react/24/outline";
@@ -81,21 +81,4 @@ const NavBar = () => {
 
 export default NavBar;
 
-/* 
-
-
-
-
-{lists.map((item, index) => (
-        <div
-          className="mb- ms-1 px-2 me-3 mt- w-full transition-all duration-500"
-          key={index}
-        >
-          <NavbarItems icon={item.icon} title={item.title} />
-        </div>
-      ))}
-
-
-
-
-*/
+ 
