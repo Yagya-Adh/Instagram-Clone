@@ -51,7 +51,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="h-screen fixed flex flex-col justify-between  dark:bg-black dark:text-white bg-[#f1f4f7] text-black-500 font-medium border-r-2  ">
+    <div className=" h-screen fixed flex flex-col justify-between  dark:bg-black dark:text-white bg-[#f1f4f7] text-black-500 font-medium border-r-2  ">
       <img src={logo} alt="logo" className="h-32 w-full" />
 
       <div className="h-full flex flex-col">
