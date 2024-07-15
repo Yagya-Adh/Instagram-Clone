@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <div className="contain dark:bg-black dark:text-white">
         {/* navbar */}
-        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible border-r-2 transition-all ease-in">
+        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible transition-all ease-in">
           <NavBar />
         </div>
         {/* bottom bar */}
