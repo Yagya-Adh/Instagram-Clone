@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import glass from "../../public/glass.jpg";
+import glass from "../../../public/glass.jpg";
 import {
   ChatBubbleOvalLeftIcon,
   PaperAirplaneIcon,

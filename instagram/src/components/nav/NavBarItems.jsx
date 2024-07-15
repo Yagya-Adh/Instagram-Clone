@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/instagram.jpeg";
+import logo from "../../../public/instagram.jpeg";
 
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { HomeIcon } from "@heroicons/react/24/outline";

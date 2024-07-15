@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import glass from "../../public/glass.jpg";
-import mountain from "../../public/mountain.jpeg";
+import glass from "../../../public/glass.jpg";
+import mountain from "../../../public/mountain.jpeg";
 import { HeartIcon } from "@heroicons/react/24/outline";
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/outline";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
@@ -48,7 +48,8 @@ const CardComponentList = ({ button, user }) => {
             className="w-auto lg:w-12 h-12 rounded-full border-2 border-red-500 p-1"
             alt="user"
           />
-          <h3 className="text-gray-600 mt-3 ms-1">{user}
+          <h3 className="text-gray-600 mt-3 ms-1">
+            {user}
             <span className="">New to instagram </span>
           </h3>
         </div>

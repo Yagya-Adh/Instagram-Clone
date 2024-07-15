@@ -5,9 +5,8 @@ import { HeartIcon } from "@heroicons/react/24/outline";
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/outline";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
-
-import BodyMain from "./BodyMain";
-import TopNab from "./TopNab.jsx";
+import TopNab from "../components/nav/TopNab";
+import BodyMain from "../components/body/BodyMain";
 
 const Home = () => {
   return (

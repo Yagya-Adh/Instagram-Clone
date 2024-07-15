@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import glass from "../../public/glass.jpg";
-import mountain from "../../public/mountain.jpeg";
+import glass from "../../../public/glass.jpg";
+import mountain from "../../../public/mountain.jpeg";
 
 const TopNab = () => {
   return (

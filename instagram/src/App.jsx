@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./Pages/NavBar";
+import NavBar from "./components/nav/NavBar";
+import NavBarBottom from "./components/nav/NavBarBottom";
+import AsideElement from "./components/nav/AsideElement";
 import Home from "./Pages/Home";
-import AsideElement from "./Pages/AsideElement";
-import NavBarBottom from "./Pages/NavBarBottom";
 
 const App = () => {
   return (
     <div>
-      <div className="contain dark:bg-black dark:text-white" >
+      <div className="contain dark:bg-black dark:text-white">
         {/* navbar */}
-        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible border-r-2">
+        <div className="sm:w-3/4 md:w-1/4 invisible sm:visible border-r-2  flex flex-col">
           <NavBar />
         </div>
         {/* bottom bar */}
